@@ -1,7 +1,7 @@
 # Hi, I'm Riya Sharma 👋
 
 **Building AI-powered applications** — RAG pipelines, LLM APIs, full-stack tools.  
-3rd year CSE @ Amrita Vishwa Vidyapeetham · Targeting AI Engineer internships off-campus.
+3rd year CCE @ Amrita Vishwa Vidyapeetham · Targeting AI Engineer internships off-campus.
 
 ---
 
@@ -11,7 +11,6 @@
 |---|---|---|
 | [AI Study Assistant](https://github.com/Riyasharma-17) | RAG pipeline over custom docs — ask questions, get cited answers | Python · Gemini API · ChromaDB |
 | [SpeechCraft AI](https://github.com/Riyasharma-17) | Real-time speech feedback with gamified interface | Groq API · Web Speech API · React |
-| [CareerLens AI](https://github.com/Riyasharma-17) | Matches your profile to job requirements using semantic search | Gemini API · RAG · FastAPI |
 | CLI Q&A Bot *(in progress)* | Multi-provider chatbot — Groq + Gemini, streaming, JSON output | Python · Groq · Gemini · FastAPI |
 
 ---
