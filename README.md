@@ -21,7 +21,7 @@
 GenAI Engineering:   RAG · LLM APIs · LangChain · Prompt Engineering · FastAPI
 Languages:           Python · Java · JavaScript
 Frontend:            React · Tailwind CSS
-Also practicing:     DSA daily (NeetCode/LeetCode)
+Also practicing:     DSA (NeetCode/LeetCode)
 ```
 
 ---
