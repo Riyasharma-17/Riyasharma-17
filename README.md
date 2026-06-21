@@ -11,7 +11,7 @@
 |---|---|---|
 | [AI Study Assistant](https://github.com/Riyasharma-17) | RAG pipeline over custom docs — ask questions, get cited answers | Python · Gemini API · ChromaDB |
 | [SpeechCraft AI](https://github.com/Riyasharma-17) | Real-time speech feedback with gamified interface | Groq API · Web Speech API · React |
-| CLI Q&A Bot *(in progress)* | Multi-provider chatbot — Groq + Gemini, streaming, JSON output | Python · Groq · Gemini · FastAPI |
+| [CLI Q&A Bot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot) | Multi-provider chatbot — Groq + Gemini, streaming, JSON output | Python · Groq · Gemini |
 
 ---
 
