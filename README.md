@@ -1,35 +1,63 @@
-# Hi, I'm Riya Sharma 👋
+<h1 align="center">Riya Sharma</h1>
 
-**Building AI-powered applications** — RAG pipelines, LLM APIs, full-stack tools.  
-3rd year CCE @ Amrita Vishwa Vidyapeetham · Targeting AI Engineer internships off-campus.
-
----
-
-## 🔨 What I'm Building
-
-| Project | What it does | Stack |
-|---|---|---|
-| [AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant) | RAG pipeline over custom docs — ask questions, get cited answers | Python · Gemini API · ChromaDB |
-| [SpeechCraft AI](https://github.com/Riyasharma-17/SpeechcraftAI) | Real-time speech feedback with gamified interface | Groq API · Web Speech API · React |
-| [CLI Q&A Bot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot) | Multi-provider chatbot — Groq + Gemini, streaming, JSON output | Python · Groq · Gemini |
+<p align="center">
+  <b>AI Engineer (Building) · 3rd Year CCE @ Amrita Vishwa Vidyapeetham · 2028</b><br>
+  Building GenAI applications — RAG pipelines, multi-provider LLM backends, full-stack AI tools<br><br>
+  <a href="https://linkedin.com/in/riyaasharma17">LinkedIn</a> ·
+  <a href="mailto:riyasharmaptn1717@gmail.com">Email</a> ·
+  Open to AI Engineer internships & collabs
+</p>
 
 ---
 
-## 🧠 Current Focus
+## 🚀 Shipped Projects
 
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| [CLI Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot) | Provider-agnostic LLM backend - Groq, Gemini, OpenRouter through one adapter interface. FastAPI REST API, 10 pytest tests, streaming, JSON mode | Python · FastAPI · Groq · Gemini · OpenRouter · pytest | ✅ Live |
+| [AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant) | RAG pipeline from scratch - no LangChain, no vector DB. PDF extraction → chunking → keyword retrieval → LLM generation | Python · Gemini API · PyPDF2 | ✅ Live |
+| [SpeechCraft AI](https://github.com/Riyasharma-17/SpeechcraftAI) | Real-time speech coaching - live recognition + AI feedback + gamification for dyslexia users | JavaScript · Web Speech API · Groq API | ✅ Live |
+
+---
+
+## 🧠 Technical Stack
+
+```text
+GenAI / LLMs     RAG Pipelines · LLM APIs · Prompt Engineering · Adapter Pattern
+                 Groq API · Gemini API · OpenRouter · LangChain (learning)
+
+Backend          FastAPI · REST APIs · Pydantic · async/await · python-dotenv
+
+Languages        Python · Java · JavaScript · SQL
+
+Frontend         React · Tailwind CSS
+
+Testing & CI     pytest · unittest.mock · GitHub Actions
+
+Tools            Git · Docker (basics) · Postman · IntelliJ IDEA · VS Code
 ```
-GenAI Engineering:   RAG · LLM APIs · LangChain · Prompt Engineering · FastAPI
-Languages:           Python · Java · JavaScript
-Frontend:            React · Tailwind CSS
-
-```
 
 ---
 
-## 📚 Learning
+## 📌 What Makes These Projects Different
 
-- NPTEL — Large Language Models (enrolled)
-- Working through: LangChain docs · Anthropic Prompt Engineering guide · FastAPI tutorial
+- **Multi-provider architecture** — not hardcoded to one LLM API. Groq, Gemini, and
+  OpenRouter behind one interface. Swap providers without touching app logic.
+- **RAG without frameworks** — built retrieval from scratch to understand what
+  LangChain and LlamaIndex actually hide. Chunking, scoring, Top-K, all manual.
+- **Tests that verify claims** — 10 pytest tests with mocked providers. Defensive
+  JSON parsing isn't just mentioned in the README — it's tested.
+- **CLI → REST API without rewrite** — same provider adapters power both. That's
+  what separation of concerns looks like when it actually works.
+
+---
+
+## 📈 Currently Building Toward
+
+- [ ] Phase 2 — RAG with vector databases (Pinecone / ChromaDB)
+- [ ] Phase 3 — AI Agents with LangGraph
+- [ ] Streaming responses + persistent conversation history
+- [ ] Deploying full-stack AI app with live URL
 
 ---
 
@@ -42,9 +70,3 @@ Frontend:            React · Tailwind CSS
 
 ---
 
-## 🤝 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Riya-Sharma)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:riyasharmaptn1717@gmail.com)
-
-*Open to AI Engineer internships, project collabs, and referrals.*
