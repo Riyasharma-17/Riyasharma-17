@@ -64,8 +64,8 @@ Tools            Git · Docker (basics) · Postman · IntelliJ IDEA · VS Code
 ## 📊 GitHub Stats
 
 <p align="left">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Riyasharma-17&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riyasharma-17&theme=dark&hide_border=true&layout=compact&langs_count=6" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Riyasharma-17&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show_icons=true&cache_seconds=1800" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riyasharma-17&theme=dark&hide_border=true&layout=compact&langs_count=6&cache_seconds=1800" />
 </p>
 
 ---
