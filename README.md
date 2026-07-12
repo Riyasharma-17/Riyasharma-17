@@ -61,12 +61,22 @@ Tools            Git · Docker (basics) · Postman · IntelliJ IDEA · VS Code
 
 ---
 
-## 📊 GitHub Stats
+## ⚙️ Engineering Principles
 
-<p align="left">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Riyasharma-17&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show_icons=true&cache_seconds=1800" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riyasharma-17&theme=dark&hide_border=true&layout=compact&langs_count=6&cache_seconds=1800" />
-</p>
+- Build first principles before frameworks
+- Separation of Concerns over quick hacks
+- Clean, modular architecture
+- Test important logic
+- Keep APIs simple and predictable
 
 ---
+
+## 📈 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Riyasharma-17&show_icons=true&theme=github_dark" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Riyasharma-17&theme=github-dark"/>
+</p>
+
+
 
