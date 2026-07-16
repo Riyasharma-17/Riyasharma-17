@@ -24,7 +24,7 @@
 
 ```text
 GenAI / LLMs     RAG Pipelines · LLM APIs · Prompt Engineering · Adapter Pattern
-                 Groq API · Gemini API · OpenRouter · LangChain (learning)
+                 Groq API · Gemini API · OpenRouter · LangChain 
 
 Backend          FastAPI · REST APIs · Pydantic · async/await · python-dotenv
 
