@@ -1,72 +1,73 @@
 <h1 align="center">Riya Sharma</h1>
 
-<p align="center">
-  <b>AI Engineer (Building) · 3rd Year CCE @ Amrita Vishwa Vidyapeetham · 2028</b><br>
-  Building GenAI applications — RAG pipelines, multi-provider LLM backends, full-stack AI tools<br><br>
-  <a href="https://linkedin.com/in/riyaasharma17">LinkedIn</a> ·
-  <a href="mailto:riyasharmaptn1717@gmail.com">Email</a> ·
-  Open to AI Engineer internships & collabs
-</p>
+<p align="center"> <b>AI Engineer (Building) · 3rd Year CCE @ Amrita Vishwa Vidyapeetham · 2028</b><br> Building GenAI applications — RAG pipelines, multi-provider LLM backends, full-stack AI tools<br><br> <a href="https://linkedin.com/in/riyaasharma17">LinkedIn</a> · <a href="mailto:riyasharmaptn1717@gmail.com">Email</a> · Open to AI Engineer internships & collabs </p>
 
----
 
-## 🚀 Shipped Projects
+# 🚀 Featured Projects
 
-| Project | What it does | Stack | Status |
+| Project | What it does | Tech Stack | Status |
 |---|---|---|---|
-| [CLI Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot) | Provider-agnostic LLM backend - Groq, Gemini, OpenRouter through one adapter interface. FastAPI REST API, 10 pytest tests, streaming, JSON mode | Python · FastAPI · Groq · Gemini · OpenRouter · pytest | ✅ Live |
-| [AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant) | RAG pipeline from scratch - no LangChain, no vector DB. PDF extraction → chunking → keyword retrieval → LLM generation | Python · Gemini API · PyPDF2 | ✅ Live |
-| [SpeechCraft AI](https://github.com/Riyasharma-17/SpeechcraftAI) | Real-time speech coaching - live recognition + AI feedback + gamification for dyslexia users | JavaScript · Web Speech API · Groq API | ✅ Live |
+| **[CLI Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot)** | Provider-agnostic LLM platform supporting **Groq, Gemini, and OpenRouter** through a unified adapter architecture. Evolved from **CLI → FastAPI → LangChain → Gradio UI → Docker**, deployed as independent backend and frontend Render services with streaming responses and **10 pytest tests**. | Python • FastAPI • LangChain (LCEL) • Gradio • Docker • Groq • Gemini • OpenRouter • pytest | ✅ Live Demo |
+| **[AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant)** | Built a complete **RAG pipeline from first principles** without LangChain or vector databases. PDF extraction → chunking → retrieval → LLM-powered answer generation. | Python • Gemini API • PyPDF2 | ✅ Live |
+| **[SpeechCraft AI](https://github.com/Riyasharma-17/SpeechcraftAI)** | AI-powered speech coaching platform providing real-time speech recognition, personalized feedback, and gamified exercises for users with dyslexia. | JavaScript • Web Speech API • Groq API | ✅ Live |
 
 ---
 
-## 🧠 Technical Stack
+# 🧠 Technical Stack
 
 ```text
-GenAI / LLMs     RAG Pipelines · LLM APIs · Prompt Engineering · Adapter Pattern
-                 Groq API · Gemini API · OpenRouter · LangChain 
+GenAI / LLMs
+RAG Pipelines • LangChain (LCEL) • Prompt Engineering
+Groq API • Gemini API • OpenRouter
+Adapter Pattern
 
-Backend          FastAPI · REST APIs · Pydantic · async/await · python-dotenv
+Backend
+FastAPI • REST APIs • Pydantic
+async/await • Streaming Responses
 
-Languages        Python · Java · JavaScript · SQL
+Infrastructure
+Docker • Render
+GitHub Actions CI/CD
 
-Frontend         React · Tailwind CSS
+Languages
+Python • Java • JavaScript • SQL
 
-Testing & CI     pytest · unittest.mock · GitHub Actions
+Frontend
+React • Gradio • Tailwind CSS
 
-Tools            Git · Docker (basics) · Postman · IntelliJ IDEA · VS Code
+Testing
+pytest • unittest.mock
+
+Developer Tools
+Git • Postman
+VS Code • IntelliJ IDEA
 ```
 
 ---
 
-## 📌 What Makes These Projects Different
+# 📌 What Makes These Projects Different
 
-- **Multi-provider architecture** — not hardcoded to one LLM API. Groq, Gemini, and
-  OpenRouter behind one interface. Swap providers without touching app logic.
-- **RAG without frameworks** — built retrieval from scratch to understand what
-  LangChain and LlamaIndex actually hide. Chunking, scoring, Top-K, all manual.
-- **Tests that verify claims** — 10 pytest tests with mocked providers. Defensive
-  JSON parsing isn't just mentioned in the README — it's tested.
-- **CLI → REST API without rewrite** — same provider adapters power both. That's
-  what separation of concerns looks like when it actually works.
+- **Multi-provider architecture** — One adapter layer for Groq, Gemini, and OpenRouter.
+- **RAG from first principles** — Built retrieval manually before using LangChain.
+- **CLI → API → Chain → UI** — Same architecture reused across every interface.
+- **Production-ready** — Dockerized and deployed as independent Render services.
+- **Tested, not just built** — 10 automated pytest tests covering core functionality.
 
 ---
 
-## 📈 Currently Building Toward
+# 📈 Currently Building Toward
 
-- [ ] Phase 2 — RAG with vector databases (Pinecone / ChromaDB)
-- [ ] Phase 3 — AI Agents with LangGraph
-- [ ] Streaming responses + persistent conversation history
-- [ ] Deploying full-stack AI app with live URL
+- [ ] RAG with vector databases (ChromaDB)
+- [ ] LangGraph agents / multi-agent systems
+- [ ] Persistent conversation history (SQLite)
+- [ ] Phase 1 capstone: Multi-quarter SEC filing drift analyzer
 
 ---
 
-## ⚙️ Engineering Principles
+# ⚙️ Engineering Principles
 
 - Build first principles before frameworks
-- Separation of Concerns over quick hacks
+- Separation of concerns over quick hacks
 - Clean, modular architecture
 - Test important logic
 - Keep APIs simple and predictable
-
----
