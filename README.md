@@ -9,7 +9,7 @@
 |---|---|---|---|
 | **[CLI Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot)** | Provider-agnostic LLM platform supporting **Groq, Gemini, and OpenRouter** through a unified adapter architecture. Evolved from **CLI → FastAPI → LangChain → Gradio UI → Docker**, deployed as independent backend and frontend Render services with streaming responses and **10 pytest tests**. | Python • FastAPI • LangChain (LCEL) • Gradio • Docker • Groq • Gemini • OpenRouter • pytest | ✅ Live Demo |
 | **[AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant)** | Built a complete **RAG pipeline from first principles** without LangChain or vector databases. PDF extraction → chunking → retrieval → LLM-powered answer generation. | Python • Gemini API • PyPDF2 | ✅ Live |
-| **[SpeechCraft AI](https://github.com/Riyasharma-17/SpeechcraftAI)** | AI-powered speech coaching platform providing real-time speech recognition, personalized feedback, and gamified exercises for users with dyslexia. | JavaScript • Web Speech API • Groq API | ✅ Live |
+| JD Intelligence Tool | Full-stack AI app that turns unstructured job descriptions into structured insight: skills, seniority, culture signals, and red flags. Compares multiple roles by common vs. unique skills, with Pydantic-validated outputs, automatic Groq→Gemini fallback, 10/10 Pytest tests, and a two-service Docker Compose setup. | Python • FastAPI • LangChain • Pydantic • Groq • Gemini • Gradio • Docker | ✅ Complete |
 
 ---
 
