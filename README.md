@@ -1,73 +1,62 @@
 <h1 align="center">Riya Sharma</h1>
 
-<p align="center"> <b>AI Engineer (Building) · 3rd Year CCE @ Amrita Vishwa Vidyapeetham · 2028</b><br> Building GenAI applications — RAG pipelines, multi-provider LLM backends, full-stack AI tools<br><br> <a href="https://linkedin.com/in/riyaasharma17">LinkedIn</a> · <a href="mailto:riyasharmaptn1717@gmail.com">Email</a> · Open to AI Engineer internships & collabs </p>
-
-
-# 🚀 Featured Projects
-
-| Project | What it does | Tech Stack | Status |
-|---|---|---|---|
-| **[CLI Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot)** | Provider-agnostic LLM platform supporting **Groq, Gemini, and OpenRouter** through a unified adapter architecture. Evolved from **CLI → FastAPI → LangChain → Gradio UI → Docker**, deployed as independent backend and frontend Render services with streaming responses and **10 pytest tests**. | Python • FastAPI • LangChain (LCEL) • Gradio • Docker • Groq • Gemini • OpenRouter • pytest | ✅ Live Demo |
-| **[JD Intelligence Tool](https://github.com/Riyasharma-17/jd-intelligence-tool)** | Full-stack AI app that turns unstructured job descriptions into structured insight: skills, seniority, culture signals, and red flags. Compares multiple roles by common vs. unique skills, with Pydantic-validated outputs, automatic Groq→Gemini fallback, 10/10 Pytest tests, and a two-service Docker Compose setup. | Python • FastAPI • LangChain • Pydantic • Groq • Gemini • Gradio • Docker | ✅ Complete |
-| **[AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant)** | Built a complete **RAG pipeline from first principles** without LangChain or vector databases. PDF extraction → chunking → retrieval → LLM-powered answer generation. | Python • Gemini API • PyPDF2 | ✅ Live |
+<p align="center">
+  <b>I build GenAI backends designed for the day an LLM provider fails.</b><br>
+  RAG pipelines · LangGraph agents · multi-provider LLM apps<br>
+  3rd-year B.Tech CCE @ Amrita Vishwa Vidyapeetham (2028)<br><br>
+  <a href="https://linkedin.com/in/riyaasharma17">LinkedIn</a> ·
+  <a href="mailto:riyasharmaptn1717@gmail.com">Email</a> ·
+  <b>Open to AI/GenAI Engineer internships and collaborations</b>
+</p>
 
 ---
 
-# 🧠 Technical Stack
+## The idea behind my work
 
-```text
-GenAI / LLMs
-RAG Pipelines • LangChain (LCEL) • Prompt Engineering
-Groq API • Gemini API • OpenRouter
-Adapter Pattern
+LLMs are unreliable parts, so I wrap them in structure: Pydantic-validated outputs, Groq → Gemini fallback, deterministic rules where decisions matter, and tests for the failure paths.
 
-Backend
-FastAPI • REST APIs • Pydantic
-async/await • Streaming Responses
+## Featured projects
 
-Infrastructure
-Docker • Render
-GitHub Actions CI/CD
+### 🛡️ [AI Governance Interview Agent](https://github.com/Riyasharma-17/gov-interview-agent)
+LangGraph agent that interviews teams about new AI systems and fills a Pydantic profile where every field tracks value, source and confidence. It flags conflicts with a policy document for human review instead of guessing.
+- Zero-LLM rule engine makes the final Yes/No/Unknown calls
+- Review queue backed by an append-only SQLite audit log
+- Eval: caught 3/3 planted conflicts, 0 false flags (small hand-written set)
 
-Languages
-Python • Java • JavaScript • SQL
+`LangGraph · Pydantic · SQLite · Groq → Gemini fallback · Gradio`
 
-Frontend
-React • Gradio • Tailwind CSS
+### 🔎 [JD Intelligence Tool](https://github.com/Riyasharma-17/jd-intelligence-tool) · [Live demo](ADD-HF-LINK)
+Turns messy job descriptions into structured insight (skills, seniority, culture signals, red flags) and compares roles side by side.
+- Pydantic-validated outputs, automatic Groq → Gemini fallback
+- 10/10 pytest tests, two-service Docker Compose setup
 
-Testing
-pytest • unittest.mock
+`FastAPI · LangChain · Pydantic · Gradio · Docker`
 
-Developer Tools
-Git • Postman
-VS Code • IntelliJ IDEA
-```
+### 💬 [Multi-Provider AI Chatbot](https://github.com/Riyasharma-17/CLI-Multi-Provider-AI-Chatbot) · [Live demo](https://multi-provider-ai-chatbot-ui.onrender.com)
+Groq, Gemini and OpenRouter behind one adapter interface, so adding a provider needs zero changes to existing logic. Grew over five phases: CLI → FastAPI → LangChain → Gradio → Docker.
+- Live on Render with streaming, CI, and pytest coverage
 
----
+`FastAPI · LangChain (LCEL) · Docker · GitHub Actions`
 
-# 📌 What Makes These Projects Different
+### 📚 [AI Study Assistant](https://github.com/Riyasharma-17/ai-study-assistant)
+RAG pipeline built from scratch with no frameworks (PDF → chunking → keyword retrieval → Gemini), to understand the mechanics before moving to LangChain.
 
-- **Multi-provider architecture** — One adapter layer for Groq, Gemini, and OpenRouter.
-- **RAG from first principles** — Built retrieval manually before using LangChain.
-- **CLI → API → Chain → UI** — Same architecture reused across every interface.
-- **Production-ready** — Dockerized and deployed as independent Render services.
-- **Tested, not just built** — 10 automated pytest tests covering core functionality.
+`Python · Gemini API · PyPDF2`
 
 ---
 
-# 📈 Currently Building Toward
+## Toolkit
 
-- [ ] RAG with vector databases (ChromaDB)
-- [ ] LangGraph agents / multi-agent systems
-- [ ] Persistent conversation history (SQLite)
-- [ ] Phase 1 capstone: Multi-quarter SEC filing drift analyzer
+| | |
+|---|---|
+| **GenAI** | LangGraph, LangChain (LCEL), RAG, prompt engineering, Groq, Gemini, OpenRouter |
+| **Backend** | Python, FastAPI, Pydantic, async/await, streaming, SQL/SQLite |
+| **Infra** | Docker, Render, GitHub Actions CI, Azure (Functions, Blob Storage) |
+| **Testing** | pytest, unittest.mock |
+| **Frontend** | Gradio, JavaScript, React (basics) |
 
----
+## Currently learning
+Vector databases (ChromaDB) and multi-agent systems.
 
-# ⚙️ Engineering Principles
-
-- Build first principles before frameworks
-- Separation of concerns over quick hacks
-- Clean, modular architecture
-- Test important logic
-- Keep APIs simple and predictable
+## Contact
+📧 riyasharmaptn1717@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/riyaasharma17)
